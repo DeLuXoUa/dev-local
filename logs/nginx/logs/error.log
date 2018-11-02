@@ -1,0 +1,732 @@
+2018/05/10 09:59:23 [emerg] 1#1: BIO_new_file("/var/www/cert/certificate.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/var/www/cert/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2018/05/10 10:48:53 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.73:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/10 11:11:05 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.74:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/10 11:12:49 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.74:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/10 11:18:09 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.74:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/10 11:23:24 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.73:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/10 11:25:01 [error] 5#5: *34 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.1.22, server: dev2.fix.if.ua, request: "GET /rest/ HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "192.168.1.52"
+2018/05/10 11:27:10 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 178.18.231.74:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 09:36:31 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 10:48:03 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 10:52:14 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 11:33:15 [error] 5#5: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 13:41:29 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 14:41:10 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 14:55:13 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 15:02:33 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/11 15:09:46 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/14 09:02:04 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/14 11:23:50 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/14 11:29:02 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/14 13:58:41 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/14 14:53:18 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/15 10:29:10 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/15 11:16:10 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/15 11:24:23 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/05/17 01:01:53 [error] 7#7: *65633 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "HEAD /.git/index HTTP/1.1", host: "91.225.165.211"
+2018/05/18 00:43:07 [error] 7#7: *108344 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/18 00:43:07 [error] 7#7: *108344 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/18 00:43:42 [error] 7#7: *108364 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/05/18 16:27:28 [error] 7#7: *136704 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: ssyii.lc, request: "MPCH / HTTP/1.1", upstream: "http://192.168.1.52:1111/", host: "91-225-165-211.ayol.net.ua"
+2018/05/19 04:24:21 [error] 7#7: *158276 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.ftpconfig HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:21 [error] 7#7: *158277 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.remote-sync.json HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:21 [error] 7#7: *158278 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.vscode/ftp-sync.json HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:21 [error] 7#7: *158279 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.vscode/sftp.json HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:21 [error] 7#7: *158292 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/asset" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemanager.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/19 04:24:21 [error] 7#7: *158292 FastCGI sent in stderr: "s in /var/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemanager.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/19 04:24:22 [error] 7#7: *158305 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.ssh/id_rsa HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:22 [error] 7#7: *158306 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.ssh/id_dsa HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:22 [error] 7#7: *158307 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.ssh/id_ecdsa HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:22 [error] 7#7: *158308 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.ssh/id_ed25519 HTTP/1.1", host: "91.225.165.211"
+2018/05/19 04:24:22 [error] 7#7: *158309 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.idea/WebServers.xml HTTP/1.1", host: "91.225.165.211"
+2018/05/19 10:01:55 [error] 7#7: *168464 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/19 10:01:55 [error] 7#7: *168464 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/19 10:01:56 [error] 7#7: *168466 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/05/20 03:18:01 [error] 7#7: *199577 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/20 03:18:01 [error] 7#7: *199577 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/20 03:18:05 [error] 7#7: *199581 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/05/21 10:31:44 [error] 7#7: *255900 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/21 10:31:44 [error] 7#7: *255900 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/21 10:31:44 [error] 7#7: *255902 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/05/24 03:15:09 [error] 7#7: *372800 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.env HTTP/1.0"
+2018/05/24 21:50:52 [error] 7#7: *406321 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.env HTTP/1.0"
+2018/05/25 10:04:15 [error] 7#7: *428361 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/25 10:04:15 [error] 7#7: *428361 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/25 10:04:16 [error] 7#7: *428363 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/05/30 20:40:01 [error] 7#7: *663890 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/30 20:40:01 [error] 7#7: *663890 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: ssyii.lc, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/05/30 20:40:02 [error] 7#7: *663892 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: ssyii.lc, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/06/12 05:54:28 [error] 7#7: *26790 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.git/config HTTP/1.0"
+2018/06/12 10:54:40 [error] 7#7: *35847 access forbidden by rule, client: 192.168.1.51, server: ssyii.lc, request: "GET /.env HTTP/1.0"
+2018/06/13 14:27:08 [emerg] 1#1: BIO_new_file("/etc/nginx/ssl/ubpf.pem") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/ubpf.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2018/06/13 14:30:46 [error] 6#6: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/favicon.ico HTTP/1.1", upstream: "http://91.225.165.211:1111/static/favicon.ico", host: "dev2.omnismain.com"
+2018/06/13 14:30:52 [error] 6#6: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/layout-sprite.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/layout-sprite.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/layout-sprite-uk.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/layout-sprite-uk.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/homepage-bg-banner_may17.jpg HTTP/1.1", upstream: "http://91.225.165.211:1111/static/homepage-bg-banner_may17.jpg", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/layout-sprite@2x.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/layout-sprite@2x.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/layout-sprite-uk@2x.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/layout-sprite-uk@2x.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *42 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/arrow-prev-large.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/arrow-prev-large.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:30:52 [error] 6#6: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: dev2.fix.if.ua, request: "GET /static/arrow-next-large.png HTTP/1.1", upstream: "http://91.225.165.211:1111/static/arrow-next-large.png", host: "dev2.omnismain.com", referrer: "https://dev2.omnismain.com/"
+2018/06/13 14:47:51 [error] 7#7: *592 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:47:51 [error] 7#7: *592 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:20 [error] 7#7: *637 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:20 [error] 7#7: *637 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:21 [error] 7#7: *640 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:21 [error] 7#7: *640 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:21 [error] 7#7: *644 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *644 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *647 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *647 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *650 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *650 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:22 [error] 7#7: *653 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *653 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *656 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *656 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *659 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *659 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *662 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *662 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:23 [error] 7#7: *665 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *665 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *669 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *671 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *673 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *675 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *677 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *679 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *681 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *683 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *685 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:24 [error] 7#7: *687 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:25 [error] 7#7: *689 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:25 [error] 7#7: *691 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:25 [error] 7#7: *693 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:25 [error] 7#7: *693 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:25 [error] 7#7: *697 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:26 [error] 7#7: *697 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:26 [error] 7#7: *700 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:26 [error] 7#7: *700 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:26 [error] 7#7: *703 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:49:26 [error] 7#7: *703 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:19 [error] 7#7: *761 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:20 [error] 7#7: *764 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:20 [error] 7#7: *764 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:21 [error] 7#7: *767 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:21 [error] 7#7: *767 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:21 [error] 7#7: *770 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:21 [error] 7#7: *770 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:22 [error] 7#7: *773 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:22 [error] 7#7: *773 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:22 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:22 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:51 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:51 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:53 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 14:50:53 [error] 7#7: *777 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:22:20 [error] 7#7: *1752 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:22:20 [error] 7#7: *1752 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:22:21 [error] 7#7: *1755 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:22:21 [error] 7#7: *1755 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:23:16 [error] 7#7: *1786 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:23:16 [error] 7#7: *1786 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:23:17 [error] 7#7: *1789 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:23:17 [error] 7#7: *1789 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:32:18 [error] 7#7: *2074 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:32:18 [error] 7#7: *2074 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:32:19 [error] 7#7: *2074 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:32:20 [error] 7#7: *2074 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.51, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/13 15:45:04 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 08:52:17 [error] 7#7: ocsp.int-x3.letsencrypt.org could not be resolved (110: Operation timed out) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:36:16 [error] 7#7: *41631 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:16 [error] 7#7: *41631 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:18 [error] 7#7: *41635 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:18 [error] 7#7: *41635 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:18 [error] 7#7: *41638 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:18 [error] 7#7: *41638 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41641 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41641 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41644 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41644 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41647 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:19 [error] 7#7: *41647 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:20 [error] 7#7: *41651 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:20 [error] 7#7: *41651 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:50 [error] 7#7: *41669 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:36:51 [error] 7#7: *41669 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc", referrer: "http://test2.lc/"
+2018/06/14 14:37:16 [error] 7#7: *41669 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:37:16 [error] 7#7: *41669 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc", referrer: "http://test2.lc/"
+2018/06/14 14:37:30 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:43:31 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:45:07 [error] 7#7: *41997 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:45:08 [error] 7#7: *41997 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:45:10 [error] 7#7: *41997 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:45:10 [error] 7#7: *41997 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:46:59 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:46:59 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:00 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:01 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:02 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:02 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:03 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:04 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:04 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:47:04 [error] 7#7: *42038 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.5:9001", host: "test2.lc"
+2018/06/14 14:48:04 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:04 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:05 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:05 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:05 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:05 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:05 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:06 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:06 [error] 6#6: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:06 [error] 6#6: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:06 [error] 6#6: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:07 [error] 6#6: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:07 [error] 6#6: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:07 [error] 6#6: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:48:12 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:50:57 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:57 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:58 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:58 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:58 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:58 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:58 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:50:59 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:51:12 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:53:10 [error] 6#6: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:53:10 [error] 6#6: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:53:16 [error] 6#6: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.17.0.3:9001", host: "test2.lc"
+2018/06/14 14:54:03 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:55:57 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 14:56:47 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:56:48 [error] 6#6: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:56:48 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:56:49 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.22, server: test2.lc, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9001", host: "test2.lc"
+2018/06/14 14:57:02 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:05:25 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/ssv4.conf:33
+2018/06/14 15:06:00 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/ssv4.conf:33
+2018/06/14 15:09:02 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:11:06 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:14:00 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:16:00 [error] 6#6: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 192.168.1.22, server: dev2.omnismain.com, request: "GET /__webpack_hmr HTTP/1.1", upstream: "http://192.168.1.52:1111/__webpack_hmr", host: "test2.lc", referrer: "https://test2.lc/rest"
+2018/06/14 15:16:00 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:16:21 [error] 6#6: *1 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.22, server: dev2.omnismain.com, request: "GET /__webpack_hmr HTTP/1.1", upstream: "http://192.168.1.52:1111/__webpack_hmr", host: "test2.lc", referrer: "https://test2.lc/rest"
+2018/06/14 15:16:42 [error] 6#6: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 192.168.1.22, server: dev2.omnismain.com, request: "GET /__webpack_hmr HTTP/1.1", upstream: "http://192.168.1.52:1111/__webpack_hmr", host: "test2.lc", referrer: "https://test2.lc/rest"
+2018/06/14 15:17:03 [error] 6#6: *1 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.22, server: dev2.omnismain.com, request: "GET /__webpack_hmr HTTP/1.1", upstream: "http://192.168.1.52:1111/__webpack_hmr", host: "test2.lc", referrer: "https://test2.lc/rest"
+2018/06/14 15:17:47 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:36:16 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:39:20 [error] 7#7: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:48:11 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.241:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/14 15:57:16 [error] 6#6: OCSP_basic_verify() failed (SSL: error:27069076:OCSP routines:OCSP_basic_verify:signer certificate not found) while requesting certificate status, responder: ocsp.int-x3.letsencrypt.org, peer: 91.223.19.240:80, certificate: "/var/www/cert/certificate.crt"
+2018/06/17 17:15:08 [error] 6#6: *132911 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/17 17:15:08 [error] 6#6: *132911 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/17 17:15:08 [error] 6#6: *132914 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/06/21 23:28:59 [error] 6#6: *317379 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/21 23:28:59 [error] 6#6: *317379 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/21 23:29:03 [error] 6#6: *317383 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/06/22 08:55:37 [error] 6#6: *334478 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/22 08:55:37 [error] 6#6: *334478 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/22 08:55:37 [error] 6#6: *334480 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/06/23 14:50:06 [error] 6#6: *388636 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/23 14:50:06 [error] 6#6: *388636 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/23 14:50:06 [error] 6#6: *388638 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/06/26 03:57:09 [error] 6#6: *499323 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/config HTTP/1.1", host: "91.225.165.211"
+2018/06/28 22:40:14 [error] 6#6: *619928 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/28 22:40:14 [error] 6#6: *619928 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/06/28 22:40:14 [error] 6#6: *619930 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /admin/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /git/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /beta/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /alpha/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /data/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /api/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /www/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:10 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /web/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /backup/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /dev/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /backend/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /app/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /prod/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/02 04:50:11 [error] 6#6: *760904 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /production/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:10 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:10 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /admin/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /alpha/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /analytics/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /android/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /api/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /apk/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /app/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /apple/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /archive/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /assets/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /backend/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /backup/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /beta/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /bucket/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /cdn/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /cloud/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /content/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /controller/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /data/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /demo/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /dev/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /developer/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /development/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /downloads/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /files/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /git/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /img/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /ipa/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /js/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /live/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /m/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /media-upload/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /media/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /mobile/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /my/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /php/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /prd/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:11 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /prod/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /production/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /public/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /qa/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /repo/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /s3/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /stage/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /staging/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /stanislas/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /static/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /test/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /testflight/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /uploads/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /video/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /web/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /widgets/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /www/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /gitlab/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/03 05:39:12 [error] 6#6: *805671 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /bitbucket/.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/07/07 15:07:56 [error] 6#6: *996040 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/07/07 15:07:56 [error] 6#6: *996040 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/07/07 15:07:57 [error] 6#6: *996042 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/07/08 23:19:53 [error] 6#6: *1054110 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.env HTTP/1.1", host: "91.225.165.211"
+2018/07/31 23:19:53 [error] 5#5: *66827 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/07/31 23:19:53 [error] 5#5: *66827 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/07/31 23:19:54 [error] 5#5: *66829 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/07 03:29:18 [error] 7#7: *34439 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/07 03:29:18 [error] 7#7: *34439 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/07 03:29:20 [error] 7#7: *34442 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/09 10:35:41 [error] 7#7: *133913 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /. HTTP/1.1", host: "91.225.165.211"
+2018/08/10 13:22:21 [error] 7#7: *182250 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/10 13:22:21 [error] 7#7: *182250 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/10 13:22:21 [error] 7#7: *182252 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/11 08:25:12 [error] 7#7: *216569 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/11 08:25:12 [error] 7#7: *216569 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/11 08:25:13 [error] 7#7: *216571 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/11 23:43:42 [error] 7#7: *244181 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/11 23:43:42 [error] 7#7: *244181 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/11 23:43:46 [error] 7#7: *244185 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/13 03:58:33 [error] 7#7: *295246 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/13 03:58:33 [error] 7#7: *295246 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/13 03:58:36 [error] 7#7: *295250 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/16 15:05:24 [error] 7#7: *444988 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /. HTTP/1.1", host: "91.225.165.211"
+2018/08/18 00:57:14 [error] 7#7: *506191 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.i9vTgVbScn HTTP/1.1", host: "91.225.165.211"
+2018/08/18 00:57:29 [error] 7#7: *506200 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.env HTTP/1.1", host: "91.225.165.211"
+2018/08/18 00:57:29 [error] 7#7: *506201 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/index HTTP/1.1", host: "91.225.165.211"
+2018/08/18 00:57:29 [error] 7#7: *506202 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/config HTTP/1.1", host: "91.225.165.211"
+2018/08/18 18:39:41 [error] 7#7: *538133 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/18 18:39:41 [error] 7#7: *538133 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/18 18:39:42 [error] 7#7: *538135 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/19 15:11:55 [error] 7#7: *575185 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/19 15:11:55 [error] 7#7: *575185 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/19 15:11:56 [error] 7#7: *575188 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/29 03:19:22 [error] 7#7: *987160 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/29 03:19:22 [error] 7#7: *987160 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/29 03:19:23 [error] 7#7: *987163 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/31 07:16:36 [error] 7#7: *1080949 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/08/31 10:17:01 [error] 7#7: *1086393 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:02 [error] 7#7: *1086399 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:02 [error] 7#7: *1086401 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:10 [error] 7#7: *1086447 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s5.omnismain.com"
+2018/08/31 10:17:11 [error] 7#7: *1086460 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s5.omnismain.com"
+2018/08/31 10:17:11 [error] 7#7: *1086468 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:12 [error] 7#7: *1086470 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s5.omnismain.com"
+2018/08/31 10:17:13 [error] 7#7: *1086483 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:13 [error] 7#7: *1086488 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s1.omnismain.com"
+2018/08/31 10:17:17 [error] 7#7: *1086506 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:19 [error] 7#7: *1086513 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:19 [error] 7#7: *1086515 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:24 [error] 7#7: *1086547 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:25 [error] 7#7: *1086553 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:25 [error] 7#7: *1086555 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "dev1.omnismain.com"
+2018/08/31 10:17:42 [error] 7#7: *1086602 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s4.omnismain.com"
+2018/08/31 10:17:43 [error] 7#7: *1086614 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s4.omnismain.com"
+2018/08/31 10:17:44 [error] 7#7: *1086623 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s4.omnismain.com"
+2018/08/31 10:17:46 [error] 7#7: *1086636 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "TRACK / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s2.omnismain.com"
+2018/08/31 10:17:48 [error] 7#7: *1086646 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "CONNECT / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s2.omnismain.com"
+2018/08/31 10:17:48 [error] 7#7: *1086648 upstream prematurely closed connection while reading response header from upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "FLURP / HTTP/1.0", upstream: "http://192.168.1.52:1111/", host: "s2.omnismain.com"
+2018/08/31 12:45:32 [error] 7#7: *1091151 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/31 12:45:32 [error] 7#7: *1091151 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/08/31 12:45:32 [error] 7#7: *1091153 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/01 15:23:43 [error] 7#7: *1139250 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/01 15:23:43 [error] 7#7: *1139250 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/01 15:23:45 [error] 7#7: *1139254 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/01 18:20:00 [error] 7#7: *1144550 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/01 18:20:00 [error] 7#7: *1144550 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/18 18:43:31 [error] 7#7: *322293 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/18 18:43:31 [error] 7#7: *322293 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/18 18:43:34 [error] 7#7: *322297 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/24 08:05:39 [error] 7#7: *562731 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/24 08:05:39 [error] 7#7: *562731 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/24 08:05:42 [error] 7#7: *562734 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/24 20:34:21 [error] 7#7: *585242 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/24 20:34:21 [error] 7#7: *585242 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/25 11:25:11 [error] 7#7: *612004 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/25 11:25:11 [error] 7#7: *612004 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/25 11:25:12 [error] 7#7: *612006 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/26 20:37:04 [error] 7#7: *671826 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/09/27 00:10:20 [error] 7#7: *678237 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/27 00:10:20 [error] 7#7: *678237 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/09/27 00:10:21 [error] 7#7: *678240 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/09/30 07:54:10 [error] 7#7: *822123 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.git/HEAD HTTP/1.1", host: "91.225.165.211"
+2018/10/01 21:44:40 [error] 7#7: *890396 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/10/01 21:44:40 [error] 7#7: *890396 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "91.225.165.211"
+2018/10/01 21:44:41 [error] 7#7: *890398 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/10/08 18:44:07 [error] 7#7: *277803 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: The directory is not writable by the Web process: /var/www/ssyii/web/assets in /va" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/10/08 18:44:07 [error] 7#7: *277803 FastCGI sent in stderr: "r/www/ssyii/vendor/yiisoft/yii2/web/AssetManager.php:215
+Stack trace:
+#0 /var/www/ssyii/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/ssyii/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/ssyii/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/ssyii/vendor/yiisoft/yii2/di/ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 /var/www/ssyii/vendor/yiisoft/yii2/base/Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/ssyii/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application-" while reading upstream, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /sitemap.xml HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "91.225.165.211"
+2018/10/08 18:44:08 [error] 7#7: *277806 open() "/var/www/ssyii/web/.well-known/security.txt" failed (2: No such file or directory), client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.well-known/security.txt HTTP/1.1", host: "91.225.165.211"
+2018/10/18 01:43:23 [error] 7#7: *679966 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /.DS_Store HTTP/1.1", host: "ua-ayol.omnismain.com"
+2018/10/25 10:01:10 [error] 7#7: *997762 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /. HTTP/1.1", host: "91.225.165.211"
+2018/10/26 13:25:42 [error] 7#7: *1047140 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /. HTTP/1.1", host: "91.225.165.211"
+2018/10/27 03:43:37 [error] 7#7: *1072936 access forbidden by rule, client: 192.168.1.51, server: dev2.omnismain.com, request: "GET /. HTTP/1.1", host: "91.225.165.211"
