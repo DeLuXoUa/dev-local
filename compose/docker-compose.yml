@@ -30,8 +30,8 @@ redis:
     - 6379:6379
 node_front:
   image: deluxo/nodejs
-#  command: npm i
-  command: npm run dev
+  command: npm run local
+#  command: bash -c "rm -rf ./node_modules && npm i && npm run local"
   restart: always
 #  mem_limit: 128m
   ports:

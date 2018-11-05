@@ -1,0 +1,5 @@
+node_front:
+  image: deluxo/nodejs_prepare:v1
+  volumes:
+    - /var/www/ssfront:/usr/src/app
+
