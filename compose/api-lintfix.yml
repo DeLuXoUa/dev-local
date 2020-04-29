@@ -1,0 +1,7 @@
+node_lintfix:
+  image: deluxo/nodejs2:1.0.0
+  command: bash -c "npm run lintfix"
+  ports:
+    - 3000:3000
+  volumes:
+    - /var/www/apiv3:/usr/src/app

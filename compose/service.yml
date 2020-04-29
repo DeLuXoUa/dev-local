@@ -1,0 +1,27 @@
+redis:
+  image: redis
+  ports:
+    - 6379:6379
+samba:
+#https://github.com/Mossop/docker-samba
+  image: deluxo/samba:1.0.0
+  tty: true
+  volumes:
+    - /opt/docker/conf/samba/:/etc/samba/
+    - /etc/passwd:/etc/passwd:ro
+    - /etc/group:/etc/group:ro
+    - /opt/docker/data/samba/varlib/:/var/lib/samba/
+    - /var/www/:/var/www/
+  ports:
+    - "445:445"
+rabbit:
+  image: rabbitmq:management-alpine
+  environment:
+    - RABBITMQ_DEFAULT_USER=admin
+    - RABBITMQ_DEFAULT_PASS=admin
+  volumes:
+    - /opt/docker/data/rabbit/lib/:/var/lib/rabbitmq
+  ports:
+    - "5672:5672"
+    - "15672:15672"
+

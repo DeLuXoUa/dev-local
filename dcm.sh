@@ -28,17 +28,32 @@ if [ "$1" = 'start' ];then
   echo Start docker-compose
   docker-compose -f /opt/docker/compose/docker-compose.yml up -d
 elif [ "$1" = 'restart' ];then
-  docker-compose -f /opt/docker/compose/docker-compose.yml down && sudo docker-compose -f /opt/docker/compose/docker-compose.yml up -d
+  docker-compose -f /opt/docker/compose/docker-compose.yml down && docker-compose -f /opt/docker/compose/docker-compose.yml up -d
 elif [ "$1" = 'stop' ];then
   docker-compose -f /opt/docker/compose/docker-compose.yml down
 elif [ "$1" = 'logs' ];then
-  docker-compose -f /opt/docker/compose/docker-compose.yml logs $2
-elif [ "$1" = 'rebuild' ];then
-  docker-compose -f /opt/docker/compose/docker-compose.yml down && sudo docker-compose -f /opt/docker/compose/npm-rebuild.yml up -d
+  docker-compose -f /opt/docker/compose/docker-compose.yml logs -f $2
+elif [ "$1" = 'rebuildapi' ];then
+  docker-compose -f /opt/docker/compose/api-rebuild.yml down && docker-compose -f /opt/docker/compose/api-rebuild.yml up -d
+elif [ "$1" = 'lintfixapi' ];then
+  docker-compose -f /opt/docker/compose/api-rebuild.yml down && docker-compose -f /opt/docker/compose/api-lintfix.yml up && docker-compose -f /opt/docker/compose/docker-compose.yml up -d
 elif [ "$1" = 'ps' ];then
   docker ps
+elif [ "$1" = 'serviceup' ];then
+  docker-compose -f /opt/docker/compose/service.yml up -d
+elif [ "$1" = 'servicedown' ];then
+  docker-compose -f /opt/docker/compose/service.yml down
 elif [ "$1" = 'update' ];then
   cd /opt/docker/ && git pull origin master && dcm restart
+elif [ "$1" = 'li' ];then
+  if [ "$(whoami)" != "root" ];then
+    echo ${red}Please run as root.${end}
+    exit
+  fi
+  #cp `pwd`/`basename "$0"` `pwd`/teee.sh
+  sudo ln -s `realpath "$0"` /usr/local/bin/dcm
+  echo ${yellow}"Run crontab -e and paste: @reboot docker-compose -f /opt/docker/compose/service.yml up -d  > /dev/null 2>&1"
+  echo After this run: update-rc.d cron defaults${end}
 elif [ "$1" = 'install' ];then
   if [ "$(whoami)" != "root" ];then 
     echo ${red}Please run as root.${end}
@@ -65,13 +80,17 @@ else
   echo
   echo ${yellowb}Docker Compose Manage Tool${end}
   echo Help:
+  echo ${darkyellow}li${end} - light install dcm to system
   echo ${green}start${end} - run all projects
   echo ${red}stop${end} - stop all projects
   echo ${lightblue}restart${end} - restart all projects
-  echo ${purple}rebuild${end} - full reinstall node_modules on ssfront
+  echo ${purple}rebuildapi${end} - full reinstall node_modules on apiv3
+  echo ${purple}lintfixapi${end} - lintfix on apiv3
   echo ${lightblue}logs${end} - all logs
-  echo ${lightblue}logs \<image_id\>${end} - container logs
+  echo ${lightblue}logs \<image_id\>${end} - container logs ${yellowb}[fpm, fpm2, nginx, node_api]${end}
   echo ${lightblue}ps${end} - show runned docker\'s
+  echo ${lightblue}serviceup${end} - run services [samba, rabbitmq]
+  echo ${lightblue}servicedown${end} - stop services
   echo ${end}
 fi
 

@@ -24,18 +24,47 @@ nginx:
     - /opt/docker/logs/nginx/logs/:/var/log/nginx/
     - /opt/docker/conf/nginx/conf.d/:/etc/nginx/conf.d
     - /opt/docker/conf/nginx/nginx.conf:/etc/nginx/nginx.conf
-redis:
-  image: redis
-  ports:
-    - 6379:6379
-node_front:
-  image: deluxo/nodejs
-  command: npm run local
-#  command: bash -c "rm -rf ./node_modules && npm i && npm run local"
+#sredis:
+#s  image: redis
+#s  ports:
+#s    - 6379:6379
+#node_front:
+#  image: deluxo/nodejs
+#  command: npm run local
+##  command: bash -c "rm -rf ./node_modules && npm i && npm run local"
+#  restart: always
+##  mem_limit: 128m
+#  ports:
+#    - 1111:1111
+#  volumes:
+#    - /var/www/ssfront:/usr/src/app
+node_api:
+  image: deluxo/nodejs2:1.0.0
+  command: bash -c "STAGE=deluxo npm run dev"
   restart: always
-#  mem_limit: 128m
   ports:
-    - 1111:1111
+    - 3000:3000
   volumes:
-    - /var/www/ssfront:/usr/src/app
-
+    - /var/www/apiv3:/usr/src/app
+#samba:
+##https://github.com/Mossop/docker-samba
+#  image: deluxo/samba:1.0.0
+#  tty: true
+#  volumes:
+#    - /opt/docker/conf/samba/:/etc/samba/
+#    - /etc/passwd:/etc/passwd:ro
+#    - /etc/group:/etc/group:ro
+#    - /opt/docker/conf/samba/varlib/:/var/lib/samba/
+#    - /var/www/:/var/www/
+#  ports:
+#    - "445:445"
+#rabbit:
+#  image: rabbitmq:management-alpine
+#  environment:
+#    - RABBITMQ_DEFAULT_USER=admin
+#    - RABBITMQ_DEFAULT_PASS=admin
+#  volumes:
+#    - /opt/docker/conf/rabbit/lib/:/var/lib/rabbitmq
+#  ports:
+#    - "5672:5672"
+#    - "15672:15672"

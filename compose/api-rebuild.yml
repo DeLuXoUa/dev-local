@@ -1,0 +1,9 @@
+node_api:
+  image: deluxo/nodejs2:1.0.0
+#  command: bash -c "rm -rf ./node_modules && npm i && npm run local"
+  command: bash -c "rm -rf ./node_modules && npm cache clean --force && npm i --force --no-audit && STAGE=deluxo npm run dev"
+  restart: always
+  ports:
+    - 3000:3000
+  volumes:
+    - /var/www/apiv3:/usr/src/app
